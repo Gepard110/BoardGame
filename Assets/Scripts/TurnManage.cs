@@ -4,24 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TurnManage : MonoBehaviour{
-    public bool flag;
+    public bool turn;
+    public bool slcflag = true;
     public Text turnText;
+    public Text endText;
     // Start is called before the first frame update
     void Start(){
         int number = Random.Range(0, 2);
         if (number == 0) {
-            flag = false;
+            turn = false;
         } else {
-            flag = true;
+            turn = true;
         }
     }
 
     // Update is called once per frame
     void Update(){
-        if (flag == false) {
+        if (turn == false) {
             turnText.text = "Player2の番です";
         } else {
             turnText.text = "Player1の番です";
         }
+    }
+    public void End(string a) {
+        endText.text = a;
+
     }
 }

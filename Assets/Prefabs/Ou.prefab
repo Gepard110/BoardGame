@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6595441754102792944}
   - component: {fileID: -7553645351770373235}
   m_Layer: 0
-  m_Name: King
+  m_Name: Ou
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6edda15b3a8244ed28b2eb292f728fc7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
